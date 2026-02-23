@@ -1,0 +1,12 @@
+Route_Name,Transport_Type,Total_Time_min,Walking_Time_min,Transfers_count,Cost_UAH,Comfort_Level,Traffic_Jam_Risk,Reliability
+Car_Center,Car,35,5,0,71.6,10,8,6
+Car_Naberezhne,Car,36,5,0,82.8,10,7,6
+Car_Pivdennyi,Car,40,5,0,91.6,10,6,7
+Transit_Bus316_M1,Transit,62,23,1,23.0,6,6,7
+Transit_Bus511_M1,Transit,80,21,1,23.0,5,7,6
+Transit_Bus45_M1,Transit,67,21,1,16.0,6,6,7
+Transit_Train_Tram,Transit,73,30,2,23.0,4,2,8
+Transit_CityTrain_Tram,Transit,65,31,2,23.0,5,2,8
+Transit_Tram27_M1,Transit,79,26,1,16.0,5,4,7
+Walk_Center,Walk,241,241,0,0.0,2,0,10
+Walk_Myru,Walk,252,252,0,0.0,2,0,10
