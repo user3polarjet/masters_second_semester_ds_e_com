@@ -1,2 +1,2 @@
 typst compile Панченко_Сергій_ІП_51мн_3.typ
-zip -r Панченко_Сергій_ІП_51мн_3.zip build level1.py Панченко_Сергій_ІП_51мн_3.pdf
+zip -r Панченко_Сергій_ІП_51мн_3.zip build level1.py level2.py routes_data.csv Панченко_Сергій_ІП_51мн_3.pdf car_0.png car_1.png car_2.png transit_0.png transit_1.png transit_2.png transit_3.png transit_4.png transit_5.png walk_0.png walk_1.png car_0.pdf car_1.pdf car_2.pdf transit_0.pdf transit_1.pdf transit_2.pdf transit_3.pdf transit_4.pdf transit_5.pdf walk_0.pdf walk_1.pdf
