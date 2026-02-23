@@ -238,7 +238,6 @@ $ f(x, m_x, sigma_x) = 1 / sqrt(2 pi sigma_x) exp(- (x - m_x)^2 / (2 sigma_x^2))
   raw(read(file_path), lang: "python", block: true)
 }
 
-// Закоментуйте або приберіть наступний рядок, якщо скрипт level3.py не лежить поруч із файлом Typst.
 #embed_python("level3.py")
 
 == Аналіз результатів відлагодження та верифікації результатів роботи програми.
