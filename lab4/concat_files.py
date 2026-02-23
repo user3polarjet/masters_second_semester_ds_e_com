@@ -27,7 +27,7 @@ async def main():
         with open(SCRIPT_DIR / 'task.md') as fileio:
             outio.write('#task.md\n')
             outio.writelines(''.join(fileio.readlines()))
-        lab_dir = SCRIPT_DIR / 'Lab_work_3'
+        lab_dir = SCRIPT_DIR / 'Lab_work_4'
         for filename in os.listdir(lab_dir):
             filepath = lab_dir / filename
             with open(filepath) as fileio:
