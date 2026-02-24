@@ -1,0 +1,44 @@
+OrderDate,Region,Rep,Item,Units,Unit Cost,Total
+09/01/2014,Central,Smith,Desk,2,125,250
+06/17/2015,Central,Kivell,Desk,5,125,625
+09/10/2015,Central,Gill,Pencil,7,1.29,9.03
+11/17/2015,Central,Jardine,Binder,11,4.99,54.89
+10/31/2015,Central,Andrews,Pencil,14,1.29,18.06
+02/26/2014,Central,Gill,Pen,27,19.99,539.73
+10/05/2014,Central,Morgan,Binder,28,8.99,251.72
+12/21/2015,Central,Andrews,Binder,28,4.99,139.72
+02/09/2014,Central,Jardine,Pencil,36,4.99,179.64
+08/07/2015,Central,Kivell,Pen Set,42,23.95,1005.9
+01/15/2015,Central,Gill,Binder,46,8.99,413.54
+01/23/2014,Central,Kivell,Binder,50,19.99,999.5
+03/24/2015,Central,Jardine,Pen Set,50,4.99,249.5
+05/14/2015,Central,Gill,Pencil,53,1.29,68.37
+07/21/2015,Central,Morgan,Pen Set,55,12.49,686.95
+04/10/2015,Central,Andrews,Pencil,66,1.99,131.34
+12/12/2014,Central,Smith,Pencil,67,1.29,86.43
+04/18/2014,Central,Andrews,Pencil,75,1.99,149.25
+05/31/2015,Central,Gill,Binder,80,8.99,719.2
+02/01/2015,Central,Smith,Binder,87,15,1305
+05/05/2014,Central,Jardine,Pencil,90,4.99,449.1
+06/25/2014,Central,Morgan,Pencil,90,4.99,449.1
+12/04/2015,Central,Jardine,Binder,94,19.99,1879.06
+11/25/2014,Central,Kivell,Pen Set,96,4.99,479.04
+02/18/2015,East,Jones,Binder,4,4.99,19.96
+11/08/2014,East,Parent,Pen,15,19.99,299.85
+09/18/2014,East,Jones,Pen Set,16,15.99,255.84
+07/12/2014,East,Howard,Binder,29,1.99,57.71
+08/15/2014,East,Jones,Pencil,35,4.99,174.65
+04/01/2014,East,Jones,Binder,60,4.99,299.4
+06/08/2014,East,Jones,Binder,60,8.99,539.4
+07/04/2015,East,Jones,Pen Set,62,4.99,309.38
+10/22/2014,East,Jones,Pen,64,8.99,575.36
+12/29/2014,East,Parent,Pen Set,74,15.99,1183.26
+07/29/2014,East,Parent,Binder,81,19.99,1619.19
+01/06/2014,East,Jones,Pencil,95,1.99,189.05
+04/27/2015,East,Howard,Pen,96,4.99,479.04
+08/24/2015,West,Sorvino,Desk,3,275,825
+03/07/2015,West,Sorvino,Binder,7,19.99,139.93
+05/22/2014,West,Thompson,Pencil,32,1.99,63.68
+03/15/2014,West,Sorvino,Pencil,56,2.99,167.44
+10/14/2015,West,Thompson,Binder,57,19.99,1139.43
+09/27/2015,West,Sorvino,Pen,76,1.99,151.24

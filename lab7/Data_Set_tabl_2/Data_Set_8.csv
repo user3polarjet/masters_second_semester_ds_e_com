@@ -1,0 +1,18 @@
+Order Details for January 2021,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Order ID,Order Date,Customer ID,Customer Name,Address,City,State,ZIP/Postal Code,Country/Region,Salesperson,Region,Shipped Date,Shipper Name,Ship Name,Ship Address,Ship City,Ship State,Ship ZIP/Postal Code,Ship Country/Region,Payment Type,Product Name,Category,Unit Price,Quantity,Revenue,Shipping Fee
+1433,01/27/2015,27,Company AA,789 27th Street,Las Vegas,NV,99999,USA,Mariya Sergienko,West,01/29/2015,Shipping Company B,Karen Toh,789 27th Street,Las Vegas,NV,99999,USA,Check,Beer,Beverages,14,49,686,66.542
+1434,01/27/2015,27,Company AA,789 27th Street,Las Vegas,NV,99999,USA,Mariya Sergienko,West,01/29/2015,Shipping Company B,Karen Toh,789 27th Street,Las Vegas,NV,99999,USA,Check,Dried Plums,Dried Fruit & Nuts,3.5,47,164.5,16.6145
+1435,01/04/2015,4,Company D,123 4th Street,New York,NY,99999,USA,Andrew Cencini,East,01/06/2015,Shipping Company A,Christina Lee,123 4th Street,New York,NY,99999,USA,Credit Card,Dried Pears,Dried Fruit & Nuts,30,69,2070,198.72
+1436,01/04/2015,4,Company D,123 4th Street,New York,NY,99999,USA,Andrew Cencini,East,01/06/2015,Shipping Company A,Christina Lee,123 4th Street,New York,NY,99999,USA,Credit Card,Dried Apples,Dried Fruit & Nuts,53,89,4717,448.115
+1437,01/04/2015,4,Company D,123 4th Street,New York,NY,99999,USA,Andrew Cencini,East,01/06/2015,Shipping Company A,Christina Lee,123 4th Street,New York,NY,99999,USA,Credit Card,Dried Plums,Dried Fruit & Nuts,3.5,11,38.5,3.7345
+1438,01/12/2015,12,Company L,123 12th Street,Las Vegas,NV,99999,USA,Mariya Sergienko,West,01/14/2015,Shipping Company B,John Edwards,123 12th Street,Las Vegas,NV,99999,USA,Credit Card,Chai,Beverages,18,81,1458,141.426
+1439,01/12/2015,12,Company L,123 12th Street,Las Vegas,NV,99999,USA,Mariya Sergienko,West,01/14/2015,Shipping Company B,John Edwards,123 12th Street,Las Vegas,NV,99999,USA,Credit Card,Coffee,Beverages,46,44,2024,198.352
+1440,01/08/2015,8,Company H,123 8th Street,Portland,OR,99999,USA,Nancy Freehafer,North,01/10/2015,Shipping Company C,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,Credit Card,Chocolate Biscuits Mix,Baked Goods & Mixes,9.2,38,349.6,36.0088
+1441,01/04/2015,4,Company D,123 4th Street,New York,NY,99999,USA,Andrew Cencini,East,01/06/2015,Shipping Company C,Christina Lee,123 4th Street,New York,NY,99999,USA,Check,Chocolate Biscuits Mix,Baked Goods & Mixes,9.2,88,809.6,79.3408
+1442,01/29/2015,29,Company CC,789 29th Street,Denver,CO,99999,USA,Jan Kotas,West,01/31/2015,Shipping Company B,Soo Jung Lee,789 29th Street,Denver,CO,99999,USA,Check,Chocolate,Candy,12.75,94,1198.5,122.247
+1443,01/03/2015,3,Company C,123 3rd Street,Los Angelas,CA,99999,USA,Mariya Sergienko,West,01/05/2015,Shipping Company B,Thomas Axerr,123 3rd Street,Los Angelas,CA,99999,USA,Cash,Clam Chowder,Soups,9.65,91,878.15,92.20575
+1444,01/06/2015,6,Company F,123 6th Street,Milwaukee,WI,99999,USA,Michael Neipper,North,01/08/2015,Shipping Company B,Francisco Pérez-Olaeta,123 6th Street,Milwaukee,WI,99999,USA,Credit Card,Curry Sauce,Sauces,40,32,1280,133.12
+1445,01/28/2015,28,Company BB,789 28th Street,Memphis,TN,99999,USA,Anne Larsen,South,01/30/2015,Shipping Company C,Amritansh Raghav,789 28th Street,Memphis,TN,99999,USA,Check,Coffee,Beverages,46,55,2530,253
+1446,01/08/2015,8,Company H,123 8th Street,Portland,OR,99999,USA,Nancy Freehafer,North,01/10/2015,Shipping Company C,Elizabeth Andersen,123 8th Street,Portland,OR,99999,USA,Check,Chocolate,Candy,12.75,47,599.25,61.72275
+1447,01/10/2015,10,Company J,123 10th Street,Chicago,IL,99999,USA,Laura Giussani,East,01/12/2015,Shipping Company B,Roland Wacker,123 10th Street,Chicago,IL,99999,USA,Credit Card,Green Tea,Beverages,2.99,90,269.1,27.7173
