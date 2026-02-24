@@ -114,8 +114,8 @@
 - *Вихідний шар:* 1 лінійний нейрон, що формує прогнозне значення.
 
 *3. Метод оптимізації та навчання*
-Навчання мережі здійснюється за допомогою алгоритму зворотного поширення помилки (Backpropagation) з оптимізатором Adam. В якості функції втрат використовується середньоквадратична похибка (MSE). Для запобігання перенавчанню вибірка розділена на тренувальну (80%) та валідаційну (20%) без порушення хронологічного порядку. 
-Проведено суцільний перебір (Grid Search) для пошуку глобального мінімуму похибки на просторі гіперпараметрів: розмір вікна (від 3 до 50) та швидкість навчання (Learning Rate від 0.0001 до 0.01).
+Навчання мережі здійснюється за допомогою алгоритму зворотного поширення помилки з оптимізатором Adam. В якості функції втрат використовується середньоквадратична похибка. Для запобігання перенавчанню вибірка розділена на тренувальну (80%) та валідаційну (20%) без порушення хронологічного порядку. 
+Проведено суцільний перебір для пошуку глобального мінімуму похибки на просторі гіперпараметрів: розмір вікна (від 3 до 50) та швидкість навчання (Learning Rate від 0.0001 до 0.01).
 
 == Блок-схема алгоритму та її опис 
 
@@ -131,22 +131,22 @@
       node((0,0), box(width: w, align(center)[Початок]), shape: pill, corner-radius: 10pt),
       edge("-|>"),
       
-      node((0,1), box(width: w, align(center)[Агрегація даних часового ряду\n(Historical & Forecast API, 365 днів)]), shape: parallelogram),
+      node((0,1), box(width: w, align(center)[Агрегація даних часового ряду]), shape: parallelogram),
       edge("-|>"),
       
-      node((0,2), box(width: w, align(center)[Нормалізація Min-Max та\nсегментація (Sliding Window)]), shape: rect, corner-radius: 2pt),
+      node((0,2), box(width: w, align(center)[Нормалізація Min-Max та сегментація]), shape: rect, corner-radius: 2pt),
       edge("-|>"),
       
-      node((0,3), box(width: w, align(center)[Генерація простору гіперпараметрів\n(Window Size, Learning Rate)]), shape: rect, corner-radius: 2pt),
+      node((0,3), box(width: w, align(center)[Генерація простору гіперпараметрів]), shape: rect, corner-radius: 2pt),
       edge("-|>"),
 
-      node((0,4), box(width: w, align(center)[Grid Search: Навчання ANN\n(Train/Val Split, Adam, MSE Loss)]), shape: rect, corner-radius: 2pt),
+      node((0,4), box(width: w, align(center)[Grid Search: Навчання ANN]), shape: rect, corner-radius: 2pt),
       edge("-|>"),
 
-      node((0,5), box(width: w, align(center)[Екстракція оптимальної моделі\nта побудова прогнозу на 7 днів]), shape: rect, corner-radius: 2pt),
+      node((0,5), box(width: w, align(center)[Екстракція оптимальної моделі та побудова прогнозу на 7 днів]), shape: rect, corner-radius: 2pt),
       edge("-|>"),
 
-      node((0,6), box(width: w, align(center)[Візуалізація метрик (Learning Curves)\nта результатів екстраполяції]), shape: parallelogram),
+      node((0,6), box(width: w, align(center)[Візуалізація метрик та результатів екстраполяції]), shape: parallelogram),
       edge("-|>"),
 
       node((0,7), box(width: w, align(center)[Кінець]), shape: pill, corner-radius: 10pt)
