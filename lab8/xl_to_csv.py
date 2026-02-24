@@ -41,6 +41,17 @@ async def main():
         args.func()
         return
 
+    lab_work_dir = SCRIPT_DIR / 'Lab_work_8'
+    async with asyncio.TaskGroup() as tg:
+        for dirpath_str, dirnames, filenames in os.walk(lab_work_dir):
+            dirpath = pathlib.Path(dirpath_str)
+            for filename in filenames:
+                filepath = dirpath / filename
+                assert len(filepath.suffixes) == 1
+                if filepath.suffix in ('.xls', '.xlsx'):
+                    tg.create_task(seq_cmd('libreoffice', '--headless', '--convert-to', 'csv', filename, cwd=dirpath, check=False))
+
+
 if __name__ == '__main__':
     asyncio.run(main())
 
