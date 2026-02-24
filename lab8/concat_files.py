@@ -27,19 +27,25 @@ async def main():
         with open(SCRIPT_DIR / 'task.md') as fileio:
             outio.write('#task.md\n')
             outio.writelines(''.join(fileio.readlines()))
-        dataset_path = SCRIPT_DIR / 'Data_Set_tabl_2' / 'Data_Set_3.csv'
-        with open(dataset_path) as fileio:
-            outio.write(f'#{dataset_path}\n')
-            outio.writelines(''.join(fileio.readlines()))
 
         outio.write('#НИЖЧЕ ПРИКЛАД РЕАЛІЗАЦІЇ\n')
         
-        lab_dir = SCRIPT_DIR / 'Lab_work_7'
-        for filename in os.listdir(lab_dir):
-            filepath = lab_dir / filename
-            with open(filepath) as fileio:
-                outio.write(f'#{filename}\n')
-                outio.writelines(''.join(fileio.readlines()))
+        lab_dir = SCRIPT_DIR / 'Lab_work_8'
+        for dirpath_str, dirnames, filenames in os.walk(lab_dir):
+            dirpath = pathlib.Path(dirpath_str)
+            for filename in filenames:
+                filepath = dirpath / filename
+                with open(filepath) as fileio:
+                    outio.write(f'#{filepath}\n')
+                    outio.write(f'\n')
+
+                    match filepath.suffix:
+                        case '.py':
+                            outio.writelines(''.join(fileio.readlines()))
+                        case '.csv' | '.txt':
+                            outio.writelines(''.join(list(fileio.readlines())[:30]))
+                        case _:
+                            assert False
 
 
 if __name__ == '__main__':
