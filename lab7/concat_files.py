@@ -27,12 +27,20 @@ async def main():
         with open(SCRIPT_DIR / 'task.md') as fileio:
             outio.write('#task.md\n')
             outio.writelines(''.join(fileio.readlines()))
-        lab_dir = SCRIPT_DIR / 'Lab_work_4'
+        dataset_path = SCRIPT_DIR / 'Data_Set_tabl_2' / 'Data_Set_3.csv'
+        with open(dataset_path) as fileio:
+            outio.write(f'#{dataset_path}\n')
+            outio.writelines(''.join(fileio.readlines()))
+
+        outio.write('#НИЖЧЕ ПРИКЛАД РЕАЛІЗАЦІЇ\n')
+        
+        lab_dir = SCRIPT_DIR / 'Lab_work_7'
         for filename in os.listdir(lab_dir):
             filepath = lab_dir / filename
             with open(filepath) as fileio:
                 outio.write(f'#{filename}\n')
                 outio.writelines(''.join(fileio.readlines()))
+
 
 if __name__ == '__main__':
     asyncio.run(main())
